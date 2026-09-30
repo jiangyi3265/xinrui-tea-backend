@@ -1,0 +1,15 @@
+# Activate together with druid: --spring.profiles.active=druid,tea
+tea:
+  engine-url: ${TEA_ENGINE_URL:http://127.0.0.1:8091/execute}
+  engine-secret: ${TEA_ENGINE_SECRET:}
+ruoyi:
+  profile: ${TEA_UPLOAD_DIR:/tmp/tea-uploads}
+server:
+  address: ${TEA_BIND_ADDRESS:127.0.0.1}
+  port: ${TEA_JAVA_PORT:8080}
+spring:
+  redis:
+    database: ${TEA_REDIS_DATABASE:14}
+logging:
+  level:
+    com.ruoyi: info
