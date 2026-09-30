@@ -1,0 +1,46 @@
+{
+  "users": [],
+  "sessions": {},
+  "nextId": 10000,
+  "catalog": [
+    {
+      "goods_id": 1001,
+      "goods_name": "初始化示例·绿茶（零库存）",
+      "category_id": 1,
+      "description": "部署验收示例，不代表实际在售商品。请在后台核实并修改名称、价格、图片及库存后再开展业务。",
+      "goods_sort": 1,
+      "product_types": 2,
+      "approvalStatus": 10,
+      "goods_min_price": "68.00",
+      "goods_min_line_price": "68.00",
+      "goods_sales": 0,
+      "goods_image": "/h5/static/catalog/a5134ccd3282cce5.jpg",
+      "spec": [{"goods_spec_id": 1001,"goods_id": 1001,"goods_price": "68.00","line_price": "68.00","stock_num": 0,"goods_sales": 0,"goods_weight": 1,"spec_sku_id": ""}]
+    },
+    {
+      "goods_id": 1002,
+      "goods_name": "初始化示例·红茶（零库存）",
+      "category_id": 2,
+      "description": "仅用于验证数据库、管理后台和用户端读取同一商品数据；不能按示例价格和图片直接销售。",
+      "goods_sort": 2,
+      "product_types": 2,
+      "approvalStatus": 10,
+      "goods_min_price": "88.00",
+      "goods_min_line_price": "88.00",
+      "goods_sales": 0,
+      "goods_image": "/h5/static/catalog/42927a3c2fcd1a9f.jpg",
+      "spec": [{"goods_spec_id": 1002,"goods_id": 1002,"goods_price": "88.00","line_price": "88.00","stock_num": 0,"goods_sales": 0,"goods_weight": 1,"spec_sku_id": ""}]
+    }
+  ],
+  "auctions": [],
+  "auctionBids": [],
+  "auctionSeedVersion": 1,
+  "adminNotices": [{"noticeId": 1,"noticeTitle": "初始化说明","noticeType": "1","status": "0","noticeContent": "当前商品为零库存部署示例。真实会员、订单、余额、拍卖及支付数据未导入；上线前请完成业务配置与验收。"}],
+  "content": {
+    "store": {"name": "茶叶商城","store_name": "茶叶商城","pay": {},"register_verify": "1","customer_type": "1","customer_service": "","customer_link": "#","toExamine": "10","recharge_status": "10"},
+    "categories": [{"category_id": 1,"name": "绿茶"},{"category_id": 2,"name": "红茶"}],
+    "banners": [],
+    "navigation": [],
+    "share": {"name": "茶叶商城","mobile": "","copyright": "","icp_number": "","customer_service": ""}
+  }
+}

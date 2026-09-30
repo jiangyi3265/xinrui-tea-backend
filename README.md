@@ -26,6 +26,10 @@
 
 ## 快速启动
 
+### Docker 一键部署（含新库和公开初始化数据）
+
+三个服务的完整编排由 [app/deploy](https://github.com/jiangyi3265/xinrui-tea-app/blob/main/deploy/README.md) 管理。克隆 app 后执行 `bash deploy/deploy.sh`，会自动取得本仓库及 admin 仓库，构建镜像、生成本机随机凭据并只对空库初始化。详细数据范围见 [sql/README.md](sql/README.md)。不上传真实会员、订单、流水或密码；再次启动不会重置已有数据库。
+
 ### 推荐：完整本地联调
 
 三个仓库的本地目录名应保持为下面的名称（联调脚本按相邻目录定位）：
